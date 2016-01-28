@@ -16,7 +16,8 @@ class User < ActiveRecord::Base
   private
 
   def email_is_unique
-    unless Account.find_by(:email, email).nil?
+    return false unless self.errors[:email].empty?
+    unless Account.find_by_email(email).nil?
       errors.add(:email, " is already used by another account")
     end
   end
