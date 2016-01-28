@@ -8,11 +8,6 @@ class User < ActiveRecord::Base
   validate :email_is_unique, on: :create
   after_create :create_account
 
-  #To be deleted after mail validation
-  def confirmation_required?
-    false
-  end
-
   private
 
   def email_is_unique
