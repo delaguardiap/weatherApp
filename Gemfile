@@ -13,6 +13,9 @@ gem 'devise'
 gem 'awesome_print'
 gem 'figaro'
 
+#Sidekiq for background processing
+gem 'sidekiq'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
