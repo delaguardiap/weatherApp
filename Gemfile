@@ -12,9 +12,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'awesome_print'
 gem 'figaro'
-
 #Sidekiq for background processing
 gem 'sidekiq'
+#For sending background emails
+gem 'devise-async'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
