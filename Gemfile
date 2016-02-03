@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'awesome_print'
 gem 'figaro'
+gem 'bootstrap-sass', '~> 3.3.6'
 #Sidekiq for background processing
 gem 'sidekiq'
 #For sending background emails
