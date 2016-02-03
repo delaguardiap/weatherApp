@@ -17,7 +17,13 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sidekiq'
 #For sending background emails
 gem 'devise-async'
+
+#For generating simple forms
 gem 'simple_form'
+
+#Stripe for processing payments
+gem 'stripe'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
